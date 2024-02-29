@@ -3,7 +3,7 @@ Morse Accounting and Income Tax Service Website
 
 # README:
 This is a website designed and developed by Shawn Thompson for Morse Accounting and Income Tax Service, a tax-office business based in Maine. 
-I was given permission to make a repository of the website by the business owner.
+I was given permission to make a repository of the website by the business owner: Deanna Thompson.
 
 # TECHNOLOGIES USED (2/16/2024):
 * HTML
