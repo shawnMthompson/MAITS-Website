@@ -15,7 +15,7 @@ Usage:
 2. Open the 'index.html' file in a web browser to view the website.
 
 # NOTE:
-I intend to continuously develop this website as I improve and as I learn more technologies that I can incorporate into my web development process (e.g. React, Tailwind, etc). I intend for these two technologies to be implemented into this website by the start of Q3 2024, but we'll see where the wind takes me in that regard.
+I intend to continuously develop this website as I improve and as I learn more technologies that I can incorporate into my web development process (e.g. React, Tailwind, PHP). I intend for these three technologies to be implemented into this website by the start of Q3 2024, but we'll see where the wind takes me in that regard.
 
 # LICENSE:
 This project is licensed under the MIT License
