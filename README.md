@@ -12,7 +12,7 @@ I was given permission to make a repository of the website by the business owner
 
 Usage:
 1. Clone the repository to your local machine.
-2. Open the 'index.html' file in a web browser to view the website.
+2. Open the 'index.html' file in a web browser to view the website. May require a live server extension or any other self-hosting solution.
 
 # NOTE:
 I intend to continuously develop this website as I improve and as I learn more technologies that I can incorporate into my web development process (e.g. React, Tailwind, PHP). I intend for these three technologies to be implemented into this website by the start of Q3 2024, but we'll see where the wind takes me in that regard.
