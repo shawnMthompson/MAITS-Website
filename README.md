@@ -10,7 +10,7 @@ I was given permission to make a repository of the website by the business owner
 * CSS
 * JavaScript
 
-Usage:
+# Usage:
 1. Clone the repository to your local machine.
 2. Open the 'index.html' file in a web browser to view the website. May require a live server extension or any other self-hosting solution.
 
