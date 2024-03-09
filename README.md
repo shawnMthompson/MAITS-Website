@@ -19,6 +19,3 @@ I intend to continuously develop and expand on this website as I improve and as 
 
 # LICENSE:
 This project is licensed under the MIT License
-
-# TEST:
-Making sure I can access git from laptop.
