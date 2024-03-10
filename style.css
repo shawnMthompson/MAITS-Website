@@ -3,6 +3,9 @@
  padding: 0;
  box-sizing: border-box;
 }
+html,body{
+    overflow-x: hidden;
+}
 @font-face{
     font-family: 'Monserrat';
     font-style: normal;
@@ -21,14 +24,11 @@ body{
     font-weight: 500;
 }
 .container{
-    /* max-width: 960px; */
     margin: 0 auto;
     padding: 50px 100px;
 }
 nav{
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -38,6 +38,7 @@ nav{
     z-index: 100000;
 }
 nav.sticky{
+    position: fixed;
     padding: 5px 100px;
     background: #f0f0f0;
 }
@@ -64,8 +65,10 @@ nav ul{
     align-items: center;
 }
 nav ul li{
-   position: relative;
-   list-style: none; 
+    display: inline-block;
+    position: relative;
+    list-style: none; 
+    margin: 10px 20px;
 }
 nav ul li a{
     position: relative;
@@ -86,7 +89,7 @@ nav.sticky ul li a{
 }
 .banner{
     position: relative;
-    height: 100dvh;
+    height: 100vh;
     width: 100%;
     background: url(images/bg.jpg);
     background-size: cover;
@@ -184,4 +187,97 @@ nav.sticky ul li a{
 	background: #f0f0f0;
 	font-weight: 300;
 	margin-top: 25px;
+}
+nav .fas{
+    display: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 15px 15px;
+    }
+    nav.sticky{
+        padding: 15px 15px;
+    }
+    nav .business-name{
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        display: none;
+    }
+    .about-column-1, .about-column-2{
+        display: inline-block;
+        justify-content: center;
+        flex-basis: 100%;
+    }
+    .about-column-1 img{
+        width: 100%;
+        border-radius: 35px;
+    }
+    .about-column-2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-column-2 h1{
+        font-size: 1.5em
+    }
+    .about-column-2 p{
+        text-align: center;
+        display: flex;
+        font-size: 18px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px; 
+        justify-content: center;
+    }
+    .service-card{
+        background-color: #f9f9f9;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    #contact-section h1{
+        text-align: left;
+        padding: 10px;
+    }
+    .contact-right img{
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .contact-right, .contact-left {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .contact-left p i{
+	    font-size: 25px;
+    }
+    .contact-left p {
+        text-align: center;
+        display: flex;
+        font-size: 15px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .container{
+    margin: 0 auto;
+    padding: 50px 50px;
+    }
 }
