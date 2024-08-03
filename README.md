@@ -5,7 +5,6 @@
 # README
 
 This is a website designed and developed by Shawn Thompson for Morse Accounting and Income Tax Service, a tax-office business based in Maine.
-I was given permission to make a repository of the website by the business owner: Deanna Thompson.
 
 # TECHNOLOGIES USED
 
@@ -16,7 +15,7 @@ I was given permission to make a repository of the website by the business owner
 # Usage
 
 1. Clone the repository to your local machine.
-2. Open the 'index.html' file in a web browser to view the website. May require a live server extension or any other self-hosting solution.
+2. Open the 'index.html' file in a web browser to view the website. Will require a live server extension or any other self-hosting solution.
 
 # LICENSE
 
