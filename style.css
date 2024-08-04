@@ -2,16 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-html,
-body {
-  overflow-x: hidden;
-}
-@font-face {
-  font-family: "Monserrat";
-  font-style: normal;
-  font-weight: 100;
-  src: url(fonts/Montserrat-Thin.ttf) format(ttf);
+  font-family: "Montserrat";
 }
 html {
   scroll-behavior: smooth;
@@ -21,8 +12,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-color: #fff;
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  overflow-x: hidden;
 }
 .container {
   margin: 0 auto;
