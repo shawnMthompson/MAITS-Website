@@ -123,7 +123,7 @@ nav.sticky ul li a{
     max-width: 700px;
     margin: 1em auto;
 }
-#service-section h1{
+#service-section h2{
     text-align: center;
     padding: 20px;
 }
@@ -148,7 +148,7 @@ nav.sticky ul li a{
 .service-card-icon{
     font-size: 32px;
 }
-#contact-section h1{
+#contact-section h2{
     text-align: left;
     padding: 10px;
 }
@@ -182,7 +182,7 @@ nav.sticky ul li a{
 	margin-right: 15px;
 	font-size: 25px;
 }
-#footer{
+footer{
     width: 100%;
 	text-align: center;
 	padding: 25px 0;
@@ -231,7 +231,7 @@ nav .fas{
         text-align: center;
         margin-top: 20px;
     }
-    .about-column-2 h1{
+    .about-column-2 h2{
         font-size: 1.5em
     }
     .about-column-2 p{
@@ -255,7 +255,7 @@ nav .fas{
         text-align: center;
         font-size: 18px;
     }
-    #contact-section h1{
+    #contact-section h2{
         text-align: left;
         padding: 10px;
     }
