@@ -15,7 +15,7 @@ This is a static website designed and developed by Shawn Thompson for Morse Acco
 # USAGE
 
 1. Clone the repository to your local machine.
-2. Open the 'index.html' file in a web browser to view the website. Will require a live server extension or any other self-hosting solution.
+2. Open the 'index.html' file in a web browser to view the website. Will require a live server extension or any other hosting solution of your choosing.
 
 # REMAINING TASKS
 
