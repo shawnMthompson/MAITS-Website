@@ -22,6 +22,7 @@ This is a static website designed and developed by Shawn Thompson for Morse Acco
 - Re-work the HTML to make it more accesssible and responsive
 - DRY the CSS (there appears to be a lot of redundant styling that either conflicts or has no effect, I genuinely don't know what was I doing lol).
 - Consider adding a rotating element that swaps out the banner every ~5-10 seconds to showcase more of what the business has to offer.
+- Add a .gitignore for the ds_store file.
 
 # LICENSE
 
