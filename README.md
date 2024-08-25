@@ -4,7 +4,7 @@
 
 # README
 
-This is a static website designed and developed by Shawn Thompson for Morse Accounting and Income Tax Service, a tax-office business based in Maine.
+This is a simple static website designed and developed by Shawn Thompson for Morse Accounting and Income Tax Service, a tax-office business based in Maine.
 
 # TECHNOLOGIES USED
 
